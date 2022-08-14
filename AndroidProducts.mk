@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_X00TD.mk
+    $(LOCAL_DIR)/nitrogen_X00TD.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_X00TD-userdebug \
-    awaken_X00TD-eng
+    nitrogen_X00TD-userdebug \
+    nitrogen_X00TD-eng
