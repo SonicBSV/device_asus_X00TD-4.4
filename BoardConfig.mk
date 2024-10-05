@@ -25,7 +25,7 @@ TARGET_KERNEL_BUILD_HOST := kgb
 TARGET_KERNEL_BUILD_USER := "SonicBSV"
 
 # Power
-TARGET_TAP_TO_WAKE_NODE := "/proc/tpd_gesture"
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
