@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from X00TD device
-$(call inherit-product, $(LOCAL_PATH)/device.mk)
+$(call inherit-product, device/asus/X00TD/device.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_X00TD
@@ -25,9 +25,9 @@ PRODUCT_MANUFACTURER := asus
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE=ASUS_X00T \
-    PRODUCT_NAME=WW_X00T \
+    PRODUCT_DEVICE=ASUS_X00TD \
+    PRODUCT_NAME=WW_X00TD \
     PRIVATE_BUILD_DESC="sdm660_64-user 10 QKQ1 72 release-keys"
 
 # Build fingerprint
-BUILD_FINGERPRINT := "asus/WW_X00TD/ASUS_X00T_2:9/QKQ1/17.2017.2012.438-20201203:user/release-keys"
+BUILD_FINGERPRINT := "asus/WW_X00TD/ASUS_X00T_2:10/QKQ1/17.2017.2012.438-20201203:user/release-keys"
